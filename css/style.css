@@ -456,9 +456,95 @@ body {
     letter-spacing: 0%;
     text-align: left;
 }
-.donate-btn:hover{
+
+.donate-btn:hover {
     background-color: #ffffff;
-    color:#006a50;
+    color: #006a50;
     cursor: pointer;
     transition: all .6s ease;
+}
+
+/* Newsletter Section */
+
+.newsletter {
+    width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 80px;
+    border-radius: 24px;
+    background-color: #c6e4d6;
+    padding: 80px 100px;
+    margin-bottom: 80px;
+}
+
+.newsletter-title {
+    color: #0e0e0e;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.newsletter-desc {
+    color: #0e0e0eb3;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.sub-input {
+    border-radius: 8px 0px 0px 8px;
+    background-color: #ffffff;
+    padding: 17px 34px;
+    width: 600px;
+    border: none;
+}
+
+.sub-input::placeholder {
+    color: #0e0e0e4d;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.sub-box {
+    display: inline-flex;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.sub-btn {
+    border-radius: 0px 8px 8px 0px;
+    background-color: #006a50;
+    padding: 14px 30px;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: left;
+    border: none;
+}
+.sub-btn:hover{
+    background-color: #ffffff;
+    color: #006a50;
+    border-left:.5px solid #006a50;
+    cursor: pointer;
+    transition: all .6s ease;
+}
+
+.sub-msg {
+    color: #0e0e0eb3;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: center;
 }
