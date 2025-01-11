@@ -38,14 +38,18 @@ body {
     background-color: #006a50;
     color: #F5F5F5;
     cursor: pointer;
-    transition: all 0.8s ease;
+    transition: all 0.6s ease;
 }
 
 /* Hero Section */
 .hero {
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    width: 1200px;
     background-color: rgb(198, 228, 214);
     border-radius: 24px;
-    margin: 0 160px 80px;
+    margin: 0 auto;
 }
 
 .hero-main {
@@ -64,14 +68,14 @@ body {
     font-size: 24px;
     font-weight: 500;
     line-height: 29px;
-    
+
 }
 
 .hero-desc {
     color: #0e0e0e;
     font-size: 42px;
     font-weight: 700;
-    line-height: 67px;
+    line-height: 50px;
     margin: 16px 0px;
 }
 
@@ -85,10 +89,174 @@ body {
     font-weight: 600;
     border: none;
 }
+
 .hero-btn:hover {
     background-color: #F5F5F5;
-    color:  #006a50;
+    color: #006a50;
     cursor: pointer;
-    transition: all 0.5s ease;
+    transition: all 0.6s ease;
     border: 1px solid #006a50;
+}
+
+/* Vision Section */
+.vision {
+    margin: 80px auto;
+    width: 1200px;
+}
+
+.vision-title {
+    color: #0e0e0e;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 24px;
+}
+
+.vision-desc {
+    color: #0e0e0eb3;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 32px;
+}
+
+.card-container {
+    display: flex;
+    gap: 24px;
+    margin-bottom: 32px;
+}
+
+.card-titile {
+    color: #0e0e0ecc;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin: 12px 0px;
+}
+
+.card-desc {
+    color: #0e0e0eb3;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 24px;
+}
+
+.card-btn {
+    border-radius: 8px;
+    padding: 11px 20px 11px 20px;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    border: none;
+}
+
+.card-btn-1 {
+    background-color: #5490f5;
+}
+
+.card-btn-2 {
+    border-radius: 8px;
+
+    background-color: #09a15c;
+}
+
+.card-btn-3 {
+    border-radius: 8px;
+
+    background-color: #ffc239;
+}
+
+.card-btn-1:hover {
+    background-color: #ffffff;
+    color: #5490f5;
+    cursor: pointer;
+    transition: all .6s ease;
+}
+
+.card-btn-2:hover {
+    background-color: #ffffff;
+    color: #09a15c;
+    cursor: pointer;
+    transition: all .6s ease;
+}
+
+.card-btn-3:hover {
+    background-color: #ffffff;
+    color: #ffc239;
+    cursor: pointer;
+    transition: all .6s ease;
+}
+
+.card-1 {
+    border-radius: 16px;
+    background: #5490f533;
+    padding: 32px;
+}
+
+.card-2 {
+    border-radius: 16px;
+    background: #5490f533;
+    padding: 32px;
+}
+
+.card-3 {
+    border-radius: 16px;
+    background: #5490f533;
+    padding: 32px;
+}
+
+.quote-container {
+    background-image: url('/images/quote-bg.png');
+    background-repeat: no-repeat;
+    background-position-x: 24px;
+    background-position-y: 30px;
+    border: 1px solid #0e0e0e26;
+    border-radius: 16px;
+    background-color: #ffffff;
+    padding: 48px 24px 48px 24px;
+}
+
+.quote {
+    color: #0e0e0ecc;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 12px;
+}
+
+.quote-name {
+    color: #0e0e0ecc;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 4px;
+}
+
+.quote-designation {
+    color: #0e0e0e99;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.quote-logo {
+    position: relative;
 }
